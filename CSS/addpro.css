@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  .navBar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  nav {
+    flex: 1;
+    text-align: right;
+  }
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+  }
+  nav ul li::after {
+      content: "";
+      width: 0%;
+      height: 2px;
+      background: #555;
+      display: block;
+      margin: auto;
+      transition: 0.5s;
+  }
+  nav ul li:hover::after {
+      width: 100%;
+  }
+  a {
+    text-decoration: none;
+    color: #555;
+  }
+  .container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+
+/* 
+*************************************************************************** */
+
+body{
+    height: 200vh;
+    background-color:#e9dbd9 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    font-size: 50px;
+    margin: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    color:white;
+    background-color:#ff4026;
+    border-radius:15px;
+}
+.form-log{
+    width: 80%;
+    height:fit-content;
+    background-color:#ffc2b9;
+    border-radius:10px;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+    margin: 100px;
+    padding: 25px;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-log td{
+    font-size: 20px;
+}
+.form-log input{
+    font-size:20px;
+    width: 90%;
+    padding: 8px;
+    margin: 3px;
+    border-radius:20px;
+    border-color: rgba(254, 230, 151, 0.654);
+}
+.submit{
+    width: 120px;
+    height: 45px;
+    border-radius:22px !important;
+    background-color: #ff523b !important;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+h2{
+  text-align: center;
+  margin:15px;
+}
