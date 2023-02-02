@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #e9dbd9;
+}
+.navBar {
+    display: flex;
+    align-items: center;
+    padding: 20px;    
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #555;
+}
+p {
+    color: #555;
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+    /* ------------------------------------------------ */
+    .cart-page {
+        margin: 80px auto;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .cart-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    th {
+        text-align: left;
+        padding: 5px;
+        background: #ff523b;
+        font-weight: normal;
+        color: #fff;
+    }
+    td {
+        padding: 10px 5px;
+    }
+    td input {
+        width: 40px;
+        height: 30px;
+        padding: 5px;
+    }
+    td button {
+        color: #ff523b;
+        font-size: 12px;
+        border: none;
+        border-radius: 8px;
+        background-color: #fff;
+        padding: 10px;
+        margin: 15px;
+    }
+    td img {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+    .total-price {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .total-price table {
+        border-top: 3px solid #ff523b;
+        width: 100%;
+        max-width: 400px;
+    }
+    td:last-child {
+        text-align: right;
+    }
+    th:last-child {
+        text-align: right;
+    }
+    .btn {
+        display: inline-block;
+        background: #ff523b;
+        color: #fff;
+        padding: 8px 30px;
+        margin: 30px 0;
+        border-radius: 30px;
+        transition: 0.5s;
+      }
+      .btn:hover {
+        background: #563434;
+      }
